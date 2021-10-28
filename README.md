@@ -1,5 +1,31 @@
 # Pewlett-Hackard-Analysis
 
-Pewlett Hackard - large company with several thousand employees. Been around for a long time. As baby boomers begin to retire at a rapid rate, pewlett hackard is looking towards the future in 2 ways. First offering a retirement package for those who meet certain criteria. Second its thinking about which positions will need to be filled in the near future. The number of upcoming retirements will leave thousands of job openings. What would happen to a company if they didnt look ahead and prepare for this many vacancies - wouldnt be good. Bobby is an up and coming HR analyst whose task is to perform employee research - specifically needs to find answers to following questions. Who will be retireing in the next few years and how many positions will pewlett hackard nead to fill. Will help future proof company by generating a list of all employees elegible for retirement package. Employee data bobby needs is only available in the form of 6 CSV files. because company has been mainly using excel and vba to work with data, but now decided to update methods and use SQL. Help bobby build an employee database with SQL by applying datamodellings, engineering and analysis skills
+Overview of the analysis: 
 
-Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
+Purpose: Pewlett Hackard is a large company with several thousand employees. Soon, they are expecting the baby boomers to begin retiring at a rapid rate. Pewlett Hackard would like to start filling in the upcoming vacancies and preparing retirement packages. My job is to help with generating a list of all employees eligible for retirement. 
+
+Task Deliverables:
+I will need to help the up and coming HR analyst, Bobby, with building an employee database with SQL by applying datamodelling, engineering, and analysis skills. This analysis will provide insight on the number of retiring employees by title and the employees eligible for the mentorship program. This will help prepare Pewlett Hackard for the many retirements soon.  
+
+The deliverables for this anaylsis are as follows:
+
+Deliverable 1: The Number of Retiring Employees by Title
+Deliverable 2: The Employees Eligible for the Mentorship Program
+Deliverable 3: A written report on the employee database analysis (README.md)
+
+Results: 
+
+Deliverable 1:
+As seen in the retirement_titles csv file, there are 133776 roles which will be opening up. 
+These include roles where a single individual had 2 titles (ex. senior staff and staff). A
+
+Deliverbale 2:
+According to the unique titles document there are 90398 unique roles which will be opening up. 
+According to the retiring titles csv, there are 2382 titles. According to mentorship eligibility, there are 1549
+
+
+Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+
+How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
