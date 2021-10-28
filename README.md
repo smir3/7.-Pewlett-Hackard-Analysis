@@ -5,27 +5,27 @@ Overview of the analysis:
 Purpose: Pewlett Hackard is a large company with several thousand employees. Soon, they are expecting the baby boomers to begin retiring at a rapid rate. Pewlett Hackard would like to start filling in the upcoming vacancies and preparing retirement packages. My job is to help with generating a list of all employees eligible for retirement. 
 
 Task Deliverables:
-I will need to help the up and coming HR analyst, Bobby, with building an employee database with SQL by applying datamodelling, engineering, and analysis skills. This analysis will provide insight on the number of retiring employees by title and the employees eligible for the mentorship program. This will help prepare Pewlett Hackard for the many retirements soon.  
+I will need to help the up and coming HR analyst, Bobby, with building an employee database with SQL by applying datamodelling, engineering, and analysis skills. Specifically, this analysis will provide insight on the number of retiring employees by title and the number of employees eligible for the mentorship program. This will help Pewlett Hackard prepare for the many retirements soon.  
 
-The deliverables for this anaylsis are as follows:
+The deliverables which will be analyzed in this report are as follows:
 
 Deliverable 1: The Number of Retiring Employees by Title
 Deliverable 2: The Employees Eligible for the Mentorship Program
-Deliverable 3: A written report on the employee database analysis (README.md)
 
 Results: 
 
 Deliverable 1:
-As seen in the retirement_titles csv file, there are 133776 roles which will be opening up. 
-These include roles where a single individual had 2 titles (ex. senior staff and staff). A
+- As seen in the retirement_titles csv file, there are 133776 titles of current employees who were born between January 1952 and December 1955, and thus are of retirement age. However, this output contains some employees with multiple titles due to promotions.
+- As seen on the unique_titles csv file, there are 90398 unique current titles for each employee.
+- As seen on the retiring titles, the number of retirement age employees for each unique title is: 29414	Senior Engineer, 28254	Senior Staff, 14222	Engineer, 12243	Staff, 4502	Technique Leader, 1761	Assistant Engineer, 2	Manager
 
 Deliverbale 2:
-According to the unique titles document there are 90398 unique roles which will be opening up. 
-According to the retiring titles csv, there are 2382 titles. According to mentorship eligibility, there are 1549
+- According to mentorship eligibility csv, there are 1549 current employees born between January 1965 and December 1965 who are eligible to participate in a mentorship program.
 
+Summary: 
 
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+How many roles will need to be filled as the "silver tsunami" begins to make an impact? There will be 90398 roles which will need to be filled when current employees of retirement age retire. From this, there are 29414	Senior Engineer, 28254	Senior Staff, 14222	Engineer, 12243	Staff, 4502	Technique Leader, 1761	Assistant Engineer, 2	Manager positions. 
 
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? There are 1549 employees who are eligible to mentor the next generation of Pewlett Hackard employees. Considering that there are 90398 expected new employees, it seems unlikely that 1549 employees would be sufficient to mentor the relatively much higher volume of new employees. 
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+Two additional queries and tables which could provide more insight into the upcoming "silver tsunami" are
