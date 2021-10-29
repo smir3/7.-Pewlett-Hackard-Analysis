@@ -2,7 +2,7 @@
 
 Overview of the analysis: 
 
-Purpose: Pewlett Hackard is a large company with several thousand employees. Soon, they are expecting the baby boomers to begin retiring at a rapid rate. Pewlett Hackard would like to start filling in the upcoming vacancies and preparing retirement packages. My job is to help with generating a list of all employees eligible for retirement. 
+Purpose: Pewlett Hackard is a large company with several thousand employees. Soon, they are expecting the baby boomers to begin retiring at a rapid rate. Pewlett Hackard would like to start preparing the retirement packages and for filling in the upcoming vacancies. My job is to help with generating a list of all employees eligible for retirement. 
 
 Task Deliverables:
 I will need to help the up and coming HR analyst, Bobby, with building an employee database with SQL by applying datamodelling, engineering, and analysis skills. Specifically, this analysis will provide insights on the number of retiring employees by title and the number of employees eligible for the mentorship program. This will help Pewlett Hackard prepare for the many retirements soon.  
