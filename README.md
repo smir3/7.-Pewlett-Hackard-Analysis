@@ -29,3 +29,12 @@ How many roles will need to be filled as the "silver tsunami" begins to make an 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? There are 1549 employees who are eligible to mentor the next generation of Pewlett Hackard employees. Considering that there are 90398 expected new employees, it seems unlikely that 1549 employees would be sufficient to mentor the relatively much higher volume of new employees. 
 
 An additional query which could provide more insight into the upcoming "silver tsunami" is finding the number of mentorship eligible employees who were born a couple years before and after 1965 as well (1962-1964 and 1966-1968).  Adding current employees born during these 6 years would better equip Pewlett Hackard with enough mentors to support the high volume of new employees. Another query which would be helpful to perform would be compiling the number of expected retirements for each department type. Sharing this information with each department would allow department managers to prepare for this as well. This would allow Pewlett Hackard to have department level preparations for the "silver tsunami", which would allow a more organized approach to addressing the problem. 
+
+## File Directory
+- The Queries folder 
+  - Employee_Database_challenge.sql file
+- The Data folder
+  - retirement_titles.csv
+  - unique_titles.csv
+  - retiring_titles.csv
+  - mentorship_eligibilty.csv 
